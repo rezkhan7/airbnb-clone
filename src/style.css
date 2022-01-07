@@ -15,6 +15,12 @@ nav{
    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 
 }
+.bold{
+    font-weight: bold;
+}
+.gray{
+    color: #918E9B;
+}
 .nav--logo{
     max-width : 100px;
 }
@@ -45,3 +51,19 @@ section{
     font-size: 25px;
    
     }
+.card{
+    width:175px;
+    font-size: 12px;
+}
+.card--image{
+    width:100%;
+    border-radius: 9px;
+}
+
+.card--stats{
+    display: flex;
+    align-items: center;
+}
+.car--star{
+    height: 14px;
+}
