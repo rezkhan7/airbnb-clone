@@ -8,6 +8,7 @@ import * as style from "./style.css"
 let App = ()=>{
     let cardData = data.map((item)=>{
         return(<Card 
+                key = {item.id}
                 coverImg = {item.coverImg} 
                 rating = {item.stats.rating}
                 reviewCount = {item.stats.reviewCount} 
@@ -21,7 +22,9 @@ let App = ()=>{
        <div>
            <Navbar />
            <Hero/>
-           {cardData}
+           <section className = "cards-list">
+             {cardData}
+           </section>
          
        </div>
     )
