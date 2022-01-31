@@ -4,4 +4,4 @@ One of the fundamentals of ReactJS is the concept of composability and reusabili
 
 Lastly, I also implemented Flexbox CSS to make the design as responsive and as appealing as it could be. This app is intended to be a mobile application, so it is not optimized for desktop view.
 
-####Mobile view of this app:
+###Mobile view of this app:
